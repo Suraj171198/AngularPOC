@@ -1,0 +1,109 @@
+
+
+.sale {
+    flex-direction: row-reverse
+}
+
+.card {
+    width: fit-content
+}
+
+.card-body {
+    width: fit-content
+}
+
+.btn {
+    border-radius: 0;
+    width: fit-content;
+    background-color: #bd221c;
+    box-shadow: 0px 10px 10px #E0E0E0;
+    z-index: 1;
+    color: white;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 900
+}
+
+.img-thumbnail {
+    border: none
+}
+
+.card {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-top:20px;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 900
+}
+
+.card-text {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500
+}
+
+.priceFilters{
+    margin-top: 30px;
+}
+
+
+
+
+
+.search {
+    width: 90%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid rgb(84, 181, 226);
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    margin-bottom: 20px;
+    margin-left: 600px;
+    // margin:auto;
+  }
+  
+  .searchTerm:focus{
+    color: rgb(84, 181, 226);
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgb(84, 181, 226);
+    background: rgb(84, 181, 226);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 50px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+//   .wrap{
+//     width: 30%;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//   }
+
+img{
+    height: 10rem;
+}
+
+.marg-top-2{
+    margin-top: 5px;
+}
